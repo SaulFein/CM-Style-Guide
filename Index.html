@@ -1,0 +1,301 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>CM Style Guide</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="mainController" style="background-color: #e4e9f0;">
+    <header>
+        <nav class="navbar navbar-default nav-bar-fixed-top padded-nav-bar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                    <span>
+                        <img class="headerlogo" ng-src="img/CloudMed Blue Logo.png" src="img/CloudMed Blue Logo.png">
+                    </span>
+                </a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home"></i> </a></li>
+                <li><a href="#about"><i class="fa fa-shield"></i> </a></li>
+                <li><a href="#contact"><i class="fa fa-comment"></i> </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container" style="background-color:white">
+        <div class="row" style="padding-top: 70px">
+            <section id="Colors" class="sg-section">
+                <div class="section-titles">COLORS</div>
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <div class="brand-primary-circle circle"></div>
+                        <div class="circle-text">
+                            <p>Brand Primary</p>
+                            <br />
+                            <p>Hex: #184c97</p>
+                            <br />
+                            <p>Sass: $brand-primary</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2" style="margin-left: 10%">
+                        <div class="brand-secondary-circle circle"></div>
+                        <div class="circle-text">
+                            <p>Brand Secondary</p>
+                            <br />
+                            <p>Hex: #f15714</p>
+                            <br />
+                            <p>Sass: $brand-secondary</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2" style="margin-left: 10%">
+                        <div class="brand-tertiary-circle circle"></div>
+                        <div class="circle-text">
+                            <p>Brand Tertiary</p>
+                            <br />
+                            <p>Hex: #0082C9</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12" style="padding-top: 60px;">
+                    <div class="col-md-2">
+                        <div class="background-circle circle"></div>
+                        <div class="circle-text">
+                            <p>Background</p>
+                            <br />
+                            <p>Hex: #e4e9f0</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2" style="margin-left: 10%">
+                        <div class="modal-header-circle circle"></div>
+                        <div class="circle-text">
+                            <p>Modal Header</p>
+                            <br />
+                            <p>Hex: #4b89e3</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Typeography" class="sg-section">
+                <div class="section-titles">TYPEOGRAPHY</div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div style="width: 100%; height: 85px;">
+                            <div style="float:left">Headings</div>
+                            <div style="float:right">
+                                <div>
+                                    font-family: "Segoe UI","Segoe Script","Helvetica Neue", Helvetica;
+                                    <br />
+                                    color: #1a53a5;
+                                    <br />
+                                    font-size: 36px;
+                                    <br />
+                                    font-weight: lighter;
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; height: 50px;">
+                            <div style="float:left">Paragraph</div>
+                            <div style="float:right">
+                                <div>
+                                    font-family: "Segoe UI","Segoe Script","Helvetica Neue", Helvetica;
+                                    <br />
+                                    color: #333;
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 100%; height: 75px;">
+                            <div style="float:left">Buttons</div>
+                            <div style="float:right">
+                                <div>
+                                    font-family: "Segoe UI","Segoe Script","Helvetica Neue", Helvetica;
+                                    <br />
+                                    color: #fff;
+                                    <br />
+                                    font-weight: normal;
+                                </div>
+                            </div>
+                        </div>
+                        <!--<dl>
+                            <dt>Headings</dt>
+                            <dd>font-family: "Segoe UI","Segoe Script","Helvetica Neue", Helvetica;</dd>
+                            <dd>font-size: 36px;</dd>
+                            <dd>color: #1a53a5;</dd>
+                            <dd>font-weight: lighter;</dd>
+                            <dt>Paragraph</dt>
+                            <dd>Segoe UI</dd>
+                            <dt>Buttons</dt>
+                            <dd>Helvetica Neue - Thin &amp; Helvetica Neue - Bold</dd>
+                            <dt>Link Text</dt>
+                            <dd><a href="#">This is a text link</a></dd>
+                        </dl>-->
+                    </div>
+                    <div class="col-md-6">
+                        <div style="float: right"class="cm-h1">Heading h1</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Buttons" class="sg-section">
+                <div class="section-titles">BUTTONS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Forms" class="sg-section">
+                <div class="section-titles">FORMS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Notifications" class="sg-section">
+                <div class="section-titles">NOTIFICATIONS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Tables" class="sg-section">
+                <div class="section-titles">TABLES</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Lists" class="sg-section">
+                <div class="section-titles">LISTS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Tooltips" class="sg-section">
+                <div class="section-titles">TOOLTIPS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Modal" class="sg-section">
+                <div class="section-titles">MODALS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Icons" class="sg-section">
+                <div class="section-titles">ICONS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row" style="padding-top: 70px">
+            <section id="Loading" class="sg-section">
+                <div class="section-titles">LOADING INDICATORS</div>
+                <div class="col-md-10 col-md-offset-1 flex-items">
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="">
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

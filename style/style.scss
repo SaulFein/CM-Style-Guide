@@ -1,0 +1,104 @@
+$brand-primary-base: #1a53a5 !default;
+$brand-primary: darken($brand-primary-base, 3.25%) !default; // #337ab7
+$brand-secondary: darken(#f26224, 3.25%) !default; // ######################CloudMed value!!!!
+
+
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px
+    /* width and height can be anything, as long as they're equal */
+}
+
+.brand-primary-circle {
+    background-color: $brand-primary
+}
+
+.brand-secondary-circle {
+    background-color: $brand-secondary
+}
+
+.brand-primary-base-circle {
+    background-color: $brand-primary-base
+}
+
+.brand-tertiary-circle {
+    background-color: #0082C9
+}
+
+.background-circle {
+    background-color: #e4e9f0;
+}
+
+.modal-header-circle {
+    background-color: #4b89e3;
+}
+
+
+.sg-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.flex-items {
+    display: flex;
+}
+
+.circle-text {
+    text-align: left;
+}
+
+.circle {
+}
+
+.section-titles {
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+
+.padded-nav-bar {
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+.headerlogo {
+    height: 45px;
+    margin-top: -12px;
+}
+
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    border-radius: 0px;
+    border: none;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    /* position: fixed; */
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    height: 50px;
+}
+
+.cm-h1 {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1a53a5 !important;
+    font-family: "Segoe UI","Segoe Script","Helvetica Neue", Helvetica;
+}
